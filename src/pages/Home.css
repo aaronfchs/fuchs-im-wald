@@ -1,0 +1,65 @@
+.main {
+    display: grid;
+    grid-template-rows: 5fr 1fr 1fr;
+}
+
+.home-main-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.home-main-content-slogan {
+    /* margin-top: 5rem; */
+
+    display: flex;
+    flex-direction: column;
+}
+
+.home-main-content-slogan h1 {
+    align-self: center;
+}
+
+.home-main-content-combackGame {
+    border: solid none;
+    border-radius: 0.5rem;
+    background-color: #3B9DEF;
+    padding: 1rem 0;
+    width: 80%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.home-main-content-combackGame-standing {
+    margin-top: 1rem;
+}
+
+.home-main-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.home-main-button button {
+    padding: 1rem 0;
+    width: 80%;
+    font-size: x-large;
+    border-radius: 0.5rem;
+    border: none;
+    color: black;
+    background-color: rgb(239, 141, 59);
+}
+
+.home-main-button-first {
+    margin-bottom: 0.5rem;
+}
+
+.home-main-button-second {
+    margin-top: 0.5rem;
+}

@@ -1,0 +1,43 @@
+.statistics-main {
+    padding-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.statistics-main-subtitle {
+    color: #3B9DEF;
+    align-self: flex-start;
+    margin-left: 5%;
+    margin-bottom: 0.3rem;
+}
+
+/* .statistics-main h2 {
+    align-self: flex-start;
+    margin-left: 5%;
+} */
+
+.game {
+    border: solid rgb(239, 141, 59);
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+    width: 80%;
+    padding: 0.5rem 1rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.game-result {
+    display: flex;
+    margin-bottom: 0.3rem;
+}
+
+.game-result-aaron {
+    margin-right: 0.5rem;
+}
+
+.game-result-lina {
+    margin-left: 0.5rem;
+}

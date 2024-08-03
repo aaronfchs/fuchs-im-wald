@@ -1,0 +1,21 @@
+.home-header {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.home-header-logo {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.home-header-logo img {
+    width: 80%;
+}
+
+.home-header-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

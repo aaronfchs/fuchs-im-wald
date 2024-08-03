@@ -1,0 +1,77 @@
+.game-main-table {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 1rem;
+}
+
+.game-main-table table {
+    border-collapse: collapse;
+}
+
+.game-main-table table th,
+.game-main-table table td {
+    padding: 8px;
+    text-align: center;
+}
+
+.game-main-table table th {
+    border-bottom: 1px solid rgb(239, 141, 59);
+}
+
+.game-main-table table th:not(:first-child),
+.game-main-table table td:not(:first-child) {
+    border-left: 1px solid rgb(239, 141, 59);
+}
+
+.game-main-table-curResult {
+    border-top: 1px solid rgb(239, 141, 59);
+}
+
+.game-main-input {
+    margin-top: 0rem;
+}
+
+.game-main-input-player {
+    font-size: x-large;
+    margin-left: 1rem;
+}
+
+.game-main-input-player select {
+    margin-left: 1rem;
+    font-size: x-large;
+    background-color: inherit;
+    border: none;
+    color: rgb(239, 141, 59);
+    width: 15%;
+}
+
+.game-main-input-player select:focus {
+    outline: none;
+}
+
+.game-main-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.game-main-button button {
+    padding: 1rem 0 1rem 0;
+    width: 80%;
+    font-size: x-large;
+    border-radius: 0.5rem;
+    border: none;
+    color: black;
+    background-color: rgb(239, 141, 59);
+    /* background-color: #3B9DEF; */
+}
+
+.game-main-button-speichern {
+    margin-bottom: 0.5rem;
+}
+
+.game-main-button-speichernUndBeenden {
+    margin-top: 0.5rem;
+}

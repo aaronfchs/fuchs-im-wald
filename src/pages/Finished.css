@@ -1,0 +1,30 @@
+.finish-main-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.finish-main-content-winner {
+    color: #3B9DEF;
+}
+
+.finish-main-content-score {
+    margin-top: 2rem;
+}
+
+.finished-main-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.finished-main-button-backToHome {
+    padding: 1rem 0 1rem 0;
+    width: 80%;
+    font-size: x-large;
+    border-radius: 0.5rem;
+    color: black;
+    background-color: rgb(239, 141, 59);
+}
